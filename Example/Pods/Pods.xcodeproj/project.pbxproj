@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02C63ADABD94E40DF1F9501593C67D63 /* unLimitPrint-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80FB7F827B261EAF0118FA1D4E200093 /* unLimitPrint-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C7330433D30D7329371BCB1AE475415 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2E769E7E8D23A9C27FE6153D7618946C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		357DA1A01E0FBBFC7EC7C8B4AF05A38E /* unLimitPrint-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE050CA5CA02C3542FBC978A3BF4F06 /* unLimitPrint-dummy.m */; };
+		3C9A52C81488BE9889FFBB8DE6F25D5D /* Pods-unLimitPrint_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99F80860C5143892B13282377E4B39C0 /* Pods-unLimitPrint_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D624566B207D63A86B344189FC7FA0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8A5F4A6FB7B4229EC092035885380440 /* Pods-unLimitPrint_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2048F544C6F51D7B8BA92EEA85E9CE2F /* Pods-unLimitPrint_Example-dummy.m */; };
+		9B7F423FCA2521FFB7EE960081D17239 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFA56047E11D2973D41956EED00B2FC /* ReplaceMe.swift */; };
+		B4C5C53525B3521EE168FD79EEF632D7 /* Pods-unLimitPrint_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 314FB978517369AEF8CB9C61604A29A4 /* Pods-unLimitPrint_Tests-dummy.m */; };
+		F2F7A392913F390629C0FBBDE262D8A5 /* Pods-unLimitPrint_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B532D818EF47D1C2B1E62614E328840 /* Pods-unLimitPrint_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D7E6201C6469C8DA17E4B23714B209A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5308F4EA3282379F39F326B84B36BCC;
+			remoteInfo = unLimitPrint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0386B5E992B5D32FCAA34A4B219D6CED /* Pods-unLimitPrint_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-unLimitPrint_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		07BE59D028E3B367FEC960DE3309B3C0 /* Pods_unLimitPrint_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_unLimitPrint_Example.framework; path = "Pods-unLimitPrint_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08871D734C6684351B898222527CBB6A /* unLimitPrint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = unLimitPrint.xcconfig; sourceTree = "<group>"; };
+		18199289EB138C53D2EC3266E12E20E0 /* Pods-unLimitPrint_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-unLimitPrint_Example-resources.sh"; sourceTree = "<group>"; };
+		1A06FBC2F0FCD8C5FD263C4A4F1077F3 /* Pods-unLimitPrint_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-unLimitPrint_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1AF1E37B04C0964F2CEB25465E38E57A /* Pods-unLimitPrint_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-unLimitPrint_Tests-resources.sh"; sourceTree = "<group>"; };
+		2048F544C6F51D7B8BA92EEA85E9CE2F /* Pods-unLimitPrint_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-unLimitPrint_Example-dummy.m"; sourceTree = "<group>"; };
+		305A990DB39646189AC272DE60EB96D4 /* unLimitPrint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = unLimitPrint.framework; path = unLimitPrint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		314FB978517369AEF8CB9C61604A29A4 /* Pods-unLimitPrint_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-unLimitPrint_Tests-dummy.m"; sourceTree = "<group>"; };
+		3B532D818EF47D1C2B1E62614E328840 /* Pods-unLimitPrint_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-unLimitPrint_Example-umbrella.h"; sourceTree = "<group>"; };
+		3D48F8FD37CD994533DF673E2796A007 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42894D5060DDD5E77A15E4117E8F9AE3 /* Pods-unLimitPrint_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-unLimitPrint_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		47F4436323F005DE7B9544CA5777ACC5 /* Pods-unLimitPrint_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-unLimitPrint_Example.modulemap"; sourceTree = "<group>"; };
+		4A31A1125C8477703C9062703F8D635C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BFA56047E11D2973D41956EED00B2FC /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = unLimitPrint/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		60F5E957CB62116786AE3BDD36CBC5E5 /* Pods_unLimitPrint_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_unLimitPrint_Tests.framework; path = "Pods-unLimitPrint_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		80FB7F827B261EAF0118FA1D4E200093 /* unLimitPrint-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "unLimitPrint-umbrella.h"; sourceTree = "<group>"; };
+		880CC161DED6CD2692057B898C4C3119 /* Pods-unLimitPrint_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-unLimitPrint_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8CBAB94F5AFFFB0F22A26249122B5FDF /* Pods-unLimitPrint_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-unLimitPrint_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99F80860C5143892B13282377E4B39C0 /* Pods-unLimitPrint_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-unLimitPrint_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A0D6E6D33C620A1008DA3B1E3A1FDEE2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A111903E22578692469EB23DE3F1B293 /* Pods-unLimitPrint_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-unLimitPrint_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AF4DFD2F65732585E8CBD24A8137B52C /* Pods-unLimitPrint_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-unLimitPrint_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BC087BE0CF6CF2CDCD25DDE60309B8D6 /* Pods-unLimitPrint_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-unLimitPrint_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BEADCF021834A5037FEB1E3F83F7EE58 /* unLimitPrint.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = unLimitPrint.modulemap; sourceTree = "<group>"; };
+		D8C0E3715CDBE2B0F8EB3AAF843CDD78 /* Pods-unLimitPrint_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-unLimitPrint_Tests.modulemap"; sourceTree = "<group>"; };
+		DEE050CA5CA02C3542FBC978A3BF4F06 /* unLimitPrint-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "unLimitPrint-dummy.m"; sourceTree = "<group>"; };
+		E6E7B2554F856BDCEF362515BA66F901 /* unLimitPrint-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "unLimitPrint-prefix.pch"; sourceTree = "<group>"; };
+		EC1D7B9C2EEC1F7C4665AE26ACB308EB /* Pods-unLimitPrint_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-unLimitPrint_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F2AAF0AEFB0D949C6F0D7859BDB65F03 /* Pods-unLimitPrint_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-unLimitPrint_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FA701ECC0BD1694E2BF3C0B4B2CA7AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7330433D30D7329371BCB1AE475415 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88601995B5EC4355B1E920D26BCBB419 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E769E7E8D23A9C27FE6153D7618946C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A764528307A1E0B005F6F36A4C493F15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D624566B207D63A86B344189FC7FA0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		077087477D9A363C26BF66DE0E8D4635 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A31A1125C8477703C9062703F8D635C /* Info.plist */,
+				BEADCF021834A5037FEB1E3F83F7EE58 /* unLimitPrint.modulemap */,
+				08871D734C6684351B898222527CBB6A /* unLimitPrint.xcconfig */,
+				DEE050CA5CA02C3542FBC978A3BF4F06 /* unLimitPrint-dummy.m */,
+				E6E7B2554F856BDCEF362515BA66F901 /* unLimitPrint-prefix.pch */,
+				80FB7F827B261EAF0118FA1D4E200093 /* unLimitPrint-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/unLimitPrint";
+			sourceTree = "<group>";
+		};
+		23FF9A5ADF5C6473B48429C8FC7A26E7 /* Pods-unLimitPrint_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3D48F8FD37CD994533DF673E2796A007 /* Info.plist */,
+				47F4436323F005DE7B9544CA5777ACC5 /* Pods-unLimitPrint_Example.modulemap */,
+				8CBAB94F5AFFFB0F22A26249122B5FDF /* Pods-unLimitPrint_Example-acknowledgements.markdown */,
+				880CC161DED6CD2692057B898C4C3119 /* Pods-unLimitPrint_Example-acknowledgements.plist */,
+				2048F544C6F51D7B8BA92EEA85E9CE2F /* Pods-unLimitPrint_Example-dummy.m */,
+				AF4DFD2F65732585E8CBD24A8137B52C /* Pods-unLimitPrint_Example-frameworks.sh */,
+				18199289EB138C53D2EC3266E12E20E0 /* Pods-unLimitPrint_Example-resources.sh */,
+				3B532D818EF47D1C2B1E62614E328840 /* Pods-unLimitPrint_Example-umbrella.h */,
+				A111903E22578692469EB23DE3F1B293 /* Pods-unLimitPrint_Example.debug.xcconfig */,
+				EC1D7B9C2EEC1F7C4665AE26ACB308EB /* Pods-unLimitPrint_Example.release.xcconfig */,
+			);
+			name = "Pods-unLimitPrint_Example";
+			path = "Target Support Files/Pods-unLimitPrint_Example";
+			sourceTree = "<group>";
+		};
+		3D2E20767F01EB92D395E2B53D8EC348 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E7A4EC1FCADB53B1F53621878A32335 /* unLimitPrint */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7363B76001D4BB539974A688A0B43765 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				23FF9A5ADF5C6473B48429C8FC7A26E7 /* Pods-unLimitPrint_Example */,
+				BD1F4F886C4DF49FE345C43631EAD1B7 /* Pods-unLimitPrint_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3D2E20767F01EB92D395E2B53D8EC348 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A5DE9B35A8AE880D66C2B66D42A71058 /* Products */,
+				7363B76001D4BB539974A688A0B43765 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9E7A4EC1FCADB53B1F53621878A32335 /* unLimitPrint */ = {
+			isa = PBXGroup;
+			children = (
+				5BFA56047E11D2973D41956EED00B2FC /* ReplaceMe.swift */,
+				077087477D9A363C26BF66DE0E8D4635 /* Support Files */,
+			);
+			name = unLimitPrint;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A5DE9B35A8AE880D66C2B66D42A71058 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07BE59D028E3B367FEC960DE3309B3C0 /* Pods_unLimitPrint_Example.framework */,
+				60F5E957CB62116786AE3BDD36CBC5E5 /* Pods_unLimitPrint_Tests.framework */,
+				305A990DB39646189AC272DE60EB96D4 /* unLimitPrint.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD1F4F886C4DF49FE345C43631EAD1B7 /* Pods-unLimitPrint_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A0D6E6D33C620A1008DA3B1E3A1FDEE2 /* Info.plist */,
+				D8C0E3715CDBE2B0F8EB3AAF843CDD78 /* Pods-unLimitPrint_Tests.modulemap */,
+				0386B5E992B5D32FCAA34A4B219D6CED /* Pods-unLimitPrint_Tests-acknowledgements.markdown */,
+				F2AAF0AEFB0D949C6F0D7859BDB65F03 /* Pods-unLimitPrint_Tests-acknowledgements.plist */,
+				314FB978517369AEF8CB9C61604A29A4 /* Pods-unLimitPrint_Tests-dummy.m */,
+				BC087BE0CF6CF2CDCD25DDE60309B8D6 /* Pods-unLimitPrint_Tests-frameworks.sh */,
+				1AF1E37B04C0964F2CEB25465E38E57A /* Pods-unLimitPrint_Tests-resources.sh */,
+				99F80860C5143892B13282377E4B39C0 /* Pods-unLimitPrint_Tests-umbrella.h */,
+				1A06FBC2F0FCD8C5FD263C4A4F1077F3 /* Pods-unLimitPrint_Tests.debug.xcconfig */,
+				42894D5060DDD5E77A15E4117E8F9AE3 /* Pods-unLimitPrint_Tests.release.xcconfig */,
+			);
+			name = "Pods-unLimitPrint_Tests";
+			path = "Target Support Files/Pods-unLimitPrint_Tests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		24733EA1402E618291DDC45763593E3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C63ADABD94E40DF1F9501593C67D63 /* unLimitPrint-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64AA82968D9AB0D82BB1788384574EA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9A52C81488BE9889FFBB8DE6F25D5D /* Pods-unLimitPrint_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E655125E0359DCB3A62AFC174F4E2DF8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F7A392913F390629C0FBBDE262D8A5 /* Pods-unLimitPrint_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A2E64225CE038FBBE8F05FC49F75A77A /* Pods-unLimitPrint_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE334761A2FFBF523D2BCC945F65043F /* Build configuration list for PBXNativeTarget "Pods-unLimitPrint_Example" */;
+			buildPhases = (
+				594F660DDAA347A62681862CEF5CDF9A /* Sources */,
+				A764528307A1E0B005F6F36A4C493F15 /* Frameworks */,
+				E655125E0359DCB3A62AFC174F4E2DF8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				939552BB0133B951539C291347CF674C /* PBXTargetDependency */,
+			);
+			name = "Pods-unLimitPrint_Example";
+			productName = "Pods-unLimitPrint_Example";
+			productReference = 07BE59D028E3B367FEC960DE3309B3C0 /* Pods_unLimitPrint_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D5308F4EA3282379F39F326B84B36BCC /* unLimitPrint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A067E24D316AD1576ABF1C963D6EA8CB /* Build configuration list for PBXNativeTarget "unLimitPrint" */;
+			buildPhases = (
+				E5E2895E78D5E1943F02859CCCAED2A7 /* Sources */,
+				3FA701ECC0BD1694E2BF3C0B4B2CA7AD /* Frameworks */,
+				24733EA1402E618291DDC45763593E3C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = unLimitPrint;
+			productName = unLimitPrint;
+			productReference = 305A990DB39646189AC272DE60EB96D4 /* unLimitPrint.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8F3EDF3C4DC1F8268C1E95821DFA751 /* Pods-unLimitPrint_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD45A4142E1BC3C85B78FC1BB0CA487C /* Build configuration list for PBXNativeTarget "Pods-unLimitPrint_Tests" */;
+			buildPhases = (
+				61F27B32E655C489032B8A32666410EE /* Sources */,
+				88601995B5EC4355B1E920D26BCBB419 /* Frameworks */,
+				64AA82968D9AB0D82BB1788384574EA4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-unLimitPrint_Tests";
+			productName = "Pods-unLimitPrint_Tests";
+			productReference = 60F5E957CB62116786AE3BDD36CBC5E5 /* Pods_unLimitPrint_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A5DE9B35A8AE880D66C2B66D42A71058 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2E64225CE038FBBE8F05FC49F75A77A /* Pods-unLimitPrint_Example */,
+				E8F3EDF3C4DC1F8268C1E95821DFA751 /* Pods-unLimitPrint_Tests */,
+				D5308F4EA3282379F39F326B84B36BCC /* unLimitPrint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		594F660DDAA347A62681862CEF5CDF9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5F4A6FB7B4229EC092035885380440 /* Pods-unLimitPrint_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F27B32E655C489032B8A32666410EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4C5C53525B3521EE168FD79EEF632D7 /* Pods-unLimitPrint_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5E2895E78D5E1943F02859CCCAED2A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B7F423FCA2521FFB7EE960081D17239 /* ReplaceMe.swift in Sources */,
+				357DA1A01E0FBBFC7EC7C8B4AF05A38E /* unLimitPrint-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		939552BB0133B951539C291347CF674C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = unLimitPrint;
+			target = D5308F4EA3282379F39F326B84B36BCC /* unLimitPrint */;
+			targetProxy = 2D7E6201C6469C8DA17E4B23714B209A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CDAB5613991E411E5990BAF694995C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		658337A25D9FF1C037C427AE884796C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A06FBC2F0FCD8C5FD263C4A4F1077F3 /* Pods-unLimitPrint_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-unLimitPrint_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-unLimitPrint_Tests/Pods-unLimitPrint_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_unLimitPrint_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7B62A85C412D689EF418FA67DA770A41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		840B837F79FCF0E29811447977758FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A111903E22578692469EB23DE3F1B293 /* Pods-unLimitPrint_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-unLimitPrint_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-unLimitPrint_Example/Pods-unLimitPrint_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_unLimitPrint_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87914864175033B9D09E19C89A795E19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08871D734C6684351B898222527CBB6A /* unLimitPrint.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/unLimitPrint/unLimitPrint-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/unLimitPrint/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/unLimitPrint/unLimitPrint.modulemap";
+				PRODUCT_NAME = unLimitPrint;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A708F3418EA3AA5A12CFD914532CA5BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08871D734C6684351B898222527CBB6A /* unLimitPrint.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/unLimitPrint/unLimitPrint-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/unLimitPrint/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/unLimitPrint/unLimitPrint.modulemap";
+				PRODUCT_NAME = unLimitPrint;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B905633EF841363F32E4E8B1E451804F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42894D5060DDD5E77A15E4117E8F9AE3 /* Pods-unLimitPrint_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-unLimitPrint_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-unLimitPrint_Tests/Pods-unLimitPrint_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_unLimitPrint_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C27E50A58DE88BDB3F9588092F66F417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC1D7B9C2EEC1F7C4665AE26ACB308EB /* Pods-unLimitPrint_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-unLimitPrint_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-unLimitPrint_Example/Pods-unLimitPrint_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_unLimitPrint_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CDAB5613991E411E5990BAF694995C5 /* Debug */,
+				7B62A85C412D689EF418FA67DA770A41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A067E24D316AD1576ABF1C963D6EA8CB /* Build configuration list for PBXNativeTarget "unLimitPrint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87914864175033B9D09E19C89A795E19 /* Debug */,
+				A708F3418EA3AA5A12CFD914532CA5BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD45A4142E1BC3C85B78FC1BB0CA487C /* Build configuration list for PBXNativeTarget "Pods-unLimitPrint_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				658337A25D9FF1C037C427AE884796C8 /* Debug */,
+				B905633EF841363F32E4E8B1E451804F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE334761A2FFBF523D2BCC945F65043F /* Build configuration list for PBXNativeTarget "Pods-unLimitPrint_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840B837F79FCF0E29811447977758FB1 /* Debug */,
+				C27E50A58DE88BDB3F9588092F66F417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
