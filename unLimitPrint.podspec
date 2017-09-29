@@ -16,11 +16,11 @@ Pod::Spec.new do |s|
 let use unlimit print for destroy your xcode LOL!!!
                        DESC
 
-  s.homepage         = 'https://github.com/Natthaaek/unLimitPrint'
+  s.homepage         = 'https://github.com/zodidac/unLimitPrint'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Natthaaek' => 'natthaaek.f@gmail.com' }
-  s.source           = { :git => 'https://github.com/Natthaaek/unLimitPrint.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/zodidac/unLimitPrint.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.1'
